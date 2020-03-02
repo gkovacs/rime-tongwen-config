@@ -3755,7 +3755,7 @@ preset_keys:
   Return: {label: Enter, preview: '↩', functional: false, send: Return}
   Hide: {label: 隐藏, send: BACK}
   BackSpace: {label: 退格, preview: '⇦', repeatable: true, functional: false, send: BackSpace}
-  space: {repeatable: false, preview: ' ', functional: false, label: '_______', send: space}
+  space: {repeatable: false, preview: ' ', functional: false, send: space}
   space1: {repeatable: false, label: '空格', functional: false, send: space}
   Clear: {label: 全清, send: Clear}
   Escape: {label: 取消, functional: false, send: Escape}
