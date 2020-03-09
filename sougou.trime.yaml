@@ -876,7 +876,7 @@ preset_keyboards:
 
       - {click: Shift_L, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
       - {click: z, long_click: '`C', swipe_down: '`F', key_back_color: bh3, key_text_color: th3}
-      - {click: x, long_click: '`H', swipe_down: Keyboard_cangjie, key_back_color: bh3, key_text_color: th3}
+      - {click: x, long_click: '`H', swipe_down: '`L', key_back_color: bh3, key_text_color: th3}
       - {click: c, long_click: '`N', swipe_down: '`K', key_back_color: bh3, key_text_color: th3}
       - {click: v, long_click: '^', swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
       - {click: b, long_click: "~", key_back_color: bh3, key_text_color: th3}
@@ -884,7 +884,7 @@ preset_keyboards:
       - {click: m, long_click: '"', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
-      - {click: Keyboard_number, long_click: Schema_switch, width: 12.5, key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_cangjie, long_click: Schema_switch, width: 12.5, key_back_color: bgn, key_text_color: tgn}
       - {click: ";", long_click: ":", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: "/", long_click: "?", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Menu, width: 32.5, key_back_color: bkg, key_text_color: tkg}
@@ -3880,7 +3880,7 @@ preset_keys:
   Zdic2: {label: 漢典, send: function, command: run, option: "http://www.zdic.net/sousuo/?q=%2$s"} #搜索網頁: %2$s爲當前輸入的編碼
   WebSearch: {label: 搜索網頁, send: function, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，參考安卓的intent文檔：https://developer.android.com/reference/android/content/Intent.html
   
-  Keyboard_cangjie: {label: '仓颉', functional: false, send: Eisu_toggle, select: cangjie5_tradsimp}
+  Keyboard_cangjie: {label: 仓颉, functional: false, send: Eisu_toggle, select: cangjie5_tradsimp}
   # 手田水 qwe
   cangjie_q: {label: '手', functional: false, send: 'q'}
   cangjie_w: {label: '田', functional: false, send: 'w'}
