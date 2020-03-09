@@ -3881,7 +3881,7 @@ preset_keys:
   WebSearch: {label: 搜索網頁, send: function, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，參考安卓的intent文檔：https://developer.android.com/reference/android/content/Intent.html
   
   Keyboard_cangjie: {label: 仓颉, functional: false, send: Eisu_toggle, select: cangjie5_tradsimp}
-　　　　
+
   cangjie_a: {label: '日', functional: false, send: 'a'}
   cangjie_b: {label: '月', functional: false, send: 'b'}
   cangjie_c: {label: '金', functional: false, send: 'c'}
