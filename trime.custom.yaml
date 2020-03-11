@@ -1,0 +1,3 @@
+# trime.custom.yaml  
+patch:  
+  "preset_keyboards/td_pinyin_flypy_extra/import_preset": cangjie5_tradsimp   #预设36键布局的ID是qwerty0  
