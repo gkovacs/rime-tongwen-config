@@ -3933,7 +3933,7 @@ preset_keys:
   WebSearch: {label: 搜索網頁, send: function, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，參考安卓的intent文檔：https://developer.android.com/reference/android/content/Intent.html
   
   Keyboard_cangjie: {label: 仓颉, functional: false, send: Eisu_toggle, select: cangjie5_tradsimp}
-  Keyboard_cangjie_upper: {label: 仓颉2, functional: false, send: Eisu_toggle, select: cangjie5_tradsimp_upper}
+  Keyboard_cangjie_upper: {label: 大写, functional: false, send: Eisu_toggle, select: cangjie5_tradsimp_upper}
 
   cangjie_a_upper: {label: 'A', functional: false, text: '{A}{Keyboard_cangjie}'}
   cangjie_b_upper: {label: 'B', functional: false, text: '{B}{Keyboard_cangjie}'}
@@ -3947,20 +3947,20 @@ preset_keys:
   cangjie_j_upper: {label: 'J', functional: false, text: '{J}{Keyboard_cangjie}'}
   cangjie_k_upper: {label: 'K', functional: false, text: '{K}{Keyboard_cangjie}'}
   cangjie_l_upper: {label: 'L', functional: false, text: '{L}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'M', functional: false, text: '{M}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'N', functional: false, text: '{N}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'O', functional: false, text: '{O}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'P', functional: false, text: '{P}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'Q', functional: false, text: '{Q}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'R', functional: false, text: '{R}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'S', functional: false, text: '{S}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'T', functional: false, text: '{T}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'U', functional: false, text: '{U}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'V', functional: false, text: '{V}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'W', functional: false, text: '{W}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'X', functional: false, text: '{X}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'Y', functional: false, text: '{Y}{Keyboard_cangjie}'}
-  cangjie_l_upper: {label: 'Z', functional: false, text: '{Z}{Keyboard_cangjie}'}
+  cangjie_m_upper: {label: 'M', functional: false, text: '{M}{Keyboard_cangjie}'}
+  cangjie_n_upper: {label: 'N', functional: false, text: '{N}{Keyboard_cangjie}'}
+  cangjie_o_upper: {label: 'O', functional: false, text: '{O}{Keyboard_cangjie}'}
+  cangjie_p_upper: {label: 'P', functional: false, text: '{P}{Keyboard_cangjie}'}
+  cangjie_q_upper: {label: 'Q', functional: false, text: '{Q}{Keyboard_cangjie}'}
+  cangjie_r_upper: {label: 'R', functional: false, text: '{R}{Keyboard_cangjie}'}
+  cangjie_s_upper: {label: 'S', functional: false, text: '{S}{Keyboard_cangjie}'}
+  cangjie_t_upper: {label: 'T', functional: false, text: '{T}{Keyboard_cangjie}'}
+  cangjie_u_upper: {label: 'U', functional: false, text: '{U}{Keyboard_cangjie}'}
+  cangjie_v_upper: {label: 'V', functional: false, text: '{V}{Keyboard_cangjie}'}
+  cangjie_w_upper: {label: 'W', functional: false, text: '{W}{Keyboard_cangjie}'}
+  cangjie_x_upper: {label: 'X', functional: false, text: '{X}{Keyboard_cangjie}'}
+  cangjie_y_upper: {label: 'Y', functional: false, text: '{Y}{Keyboard_cangjie}'}
+  cangjie_z_upper: {label: 'Z', functional: false, text: '{Z}{Keyboard_cangjie}'}
 
   cangjie_a: {label: '日', functional: false, send: 'a'}
   cangjie_b: {label: '月', functional: false, send: 'b'}
