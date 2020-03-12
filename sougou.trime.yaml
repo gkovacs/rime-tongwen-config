@@ -922,7 +922,7 @@ preset_keyboards:
       - {click: cangjie_l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
-      - {click: Shift_L, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+      - {click: Keyboard_cangjie_upper, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
       - {click: cangjie_z, long_click: '`C', swipe_down: '`F', key_back_color: bh3, key_text_color: th3}
       - {click: cangjie_x, long_click: '`H', swipe_down: '`L', key_back_color: bh3, key_text_color: th3}
       - {click: cangjie_c, long_click: '`N', swipe_down: '`K', key_back_color: bh3, key_text_color: th3}
@@ -939,6 +939,55 @@ preset_keyboards:
       - {click: ",", long_click: "<", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: ".", long_click: ">", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: Return, swipe_up: Escape, long_click: CommitComment, width: 15, key_back_color: benter, key_text_color: tenter}
+
+  cangjie5_tradsimp_upper:
+    author: "暖暖"
+    name: 仓颉
+    width: 10
+  #  height: 48
+    ascii_mode: 0
+    keys:
+      - {click: cangjie_q_upper, long_click: 1, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_w_upper, long_click: 2, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_e_upper, long_click: 3, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_r, long_click: 4, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_t, long_click: 5, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_y, long_click: 6, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_u, long_click: 7, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_i, long_click: 8, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_o, long_click: 9, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_p, long_click: 0, key_back_color: bh1, key_text_color: th1}
+
+      - {width: 5, key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_a, long_click: '`', swipe_down: '`V', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_s, long_click: '@', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_d, long_click: '#', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_f, long_click: '$', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_g, long_click: '%', swipe_down: "date_time", key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_h, long_click: '!', swipe_down: "+", key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_j, long_click: '&', swipe_down: "-", key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_k, long_click: '*', swipe_down: "_", key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
+      - {width: 5, key_back_color: bh2, key_text_color: th2}
+
+      - {click: Keyboard_cangjie_upper, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+      - {click: cangjie_z, long_click: '`C', swipe_down: '`F', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_x, long_click: '`H', swipe_down: '`L', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_c, long_click: '`N', swipe_down: '`K', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_v, long_click: '^', swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_b, long_click: "~", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_n, long_click: "'", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_m, long_click: '"', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
+      - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
+
+      - {click: Keyboard_number, long_click: Schema_switch, swipe_up: Keyboard_letter, width: 12.5, key_back_color: bgn, key_text_color: tgn}
+      - {click: ";", long_click: ":", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: "/", long_click: "?", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Menu, width: 32.5, key_back_color: bkg, key_text_color: tkg}
+      - {click: ",", long_click: "<", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: ".", long_click: ">", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: Return, swipe_up: Escape, long_click: CommitComment, width: 15, key_back_color: benter, key_text_color: tenter}
+
 
   td_pinyin_flypy_extra:
     import_preset: cangjie5_tradsimp
@@ -3884,6 +3933,11 @@ preset_keys:
   WebSearch: {label: 搜索網頁, send: function, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，參考安卓的intent文檔：https://developer.android.com/reference/android/content/Intent.html
   
   Keyboard_cangjie: {label: 仓颉, functional: false, send: Eisu_toggle, select: cangjie5_tradsimp}
+  Keyboard_cangjie_upper: {label: 仓颉, functional: false, send: Eisu_toggle, select: cangjie5_tradsimp_upper}
+
+  cangjie_a_upper: {label: '日', functional: false, send: 'A', select: cangjie5_tradsimp}
+  cangjie_b_upper: {label: '月', functional: false, send: 'B', select: cangjie5_tradsimp}
+  cangjie_c_upper: {label: '金', functional: false, send: 'C', select: cangjie5_tradsimp}
 
   cangjie_a: {label: '日', functional: false, send: 'a'}
   cangjie_b: {label: '月', functional: false, send: 'b'}
