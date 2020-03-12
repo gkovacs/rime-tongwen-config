@@ -3935,9 +3935,9 @@ preset_keys:
   Keyboard_cangjie: {label: 仓颉, functional: false, send: Eisu_toggle, select: cangjie5_tradsimp}
   Keyboard_cangjie_upper: {label: 仓颉2, functional: false, send: Eisu_toggle, select: cangjie5_tradsimp_upper}
 
-  cangjie_a_upper: {label: '日', functional: false, send: 'a'}
-  cangjie_b_upper: {label: '月', functional: false, send: 'b'}
-  cangjie_c_upper: {label: 'C', functional: false, send: 'c'}
+  cangjie_a_upper: {label: '日', functional: false, send: 'A', select: cangjie5_tradsimp}
+  cangjie_b_upper: {label: '月', functional: false, send: 'B', select: cangjie5_tradsimp}
+  cangjie_c_upper: {label: 'C', functional: false, send: 'C', select: cangjie5_tradsimp}
 
   cangjie_a: {label: '日', functional: false, send: 'a'}
   cangjie_b: {label: '月', functional: false, send: 'b'}
