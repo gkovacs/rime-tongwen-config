@@ -947,37 +947,37 @@ preset_keyboards:
   #  height: 48
     ascii_mode: 0
     keys:
-      - {click: cangjie_q, long_click: 1, key_back_color: bh1, key_text_color: th1}
-      - {click: cangjie_w, long_click: 2, key_back_color: bh1, key_text_color: th1}
-      - {click: cangjie_e, long_click: 3, key_back_color: bh1, key_text_color: th1}
-      - {click: cangjie_r, long_click: 4, key_back_color: bh1, key_text_color: th1}
-      - {click: cangjie_t, long_click: 5, key_back_color: bh1, key_text_color: th1}
-      - {click: cangjie_y, long_click: 6, key_back_color: bh1, key_text_color: th1}
-      - {click: cangjie_u, long_click: 7, key_back_color: bh1, key_text_color: th1}
-      - {click: cangjie_i, long_click: 8, key_back_color: bh1, key_text_color: th1}
-      - {click: cangjie_o, long_click: 9, key_back_color: bh1, key_text_color: th1}
-      - {click: cangjie_p, long_click: 0, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_q_upper, long_click: 1, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_w_upper, long_click: 2, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_e_upper, long_click: 3, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_r_upper, long_click: 4, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_t_upper, long_click: 5, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_y_upper, long_click: 6, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_u_upper, long_click: 7, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_i_upper, long_click: 8, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_o_upper, long_click: 9, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_p_upper, long_click: 0, key_back_color: bh1, key_text_color: th1}
 
       - {width: 5, key_back_color: bh2, key_text_color: th2}
       - {click: cangjie_a_upper, long_click: '`', swipe_down: '`V', key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_s, long_click: '@', key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_d, long_click: '#', key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_f, long_click: '$', key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_g, long_click: '%', swipe_down: "date_time", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_h, long_click: '!', swipe_down: "+", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_j, long_click: '&', swipe_down: "-", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_k, long_click: '*', swipe_down: "_", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_s_upper, long_click: '@', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_d_upper, long_click: '#', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_f_upper, long_click: '$', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_g_upper, long_click: '%', swipe_down: "date_time", key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_h_upper, long_click: '!', swipe_down: "+", key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_j_upper, long_click: '&', swipe_down: "-", key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_k_upper, long_click: '*', swipe_down: "_", key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_l_upper, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
-      - {click: Keyboard_cangjie_upper, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
-      - {click: cangjie_z, long_click: '`C', swipe_down: '`F', key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_x, long_click: '`H', swipe_down: '`L', key_back_color: bh3, key_text_color: th3}
+      - {click: Keyboard_cangjie, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+      - {click: cangjie_z_upper, long_click: '`C', swipe_down: '`F', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_x_upper, long_click: '`H', swipe_down: '`L', key_back_color: bh3, key_text_color: th3}
       - {click: cangjie_c_upper, long_click: '`N', swipe_down: '`K', key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_v, long_click: '^', swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_v_upper, long_click: '^', swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
       - {click: cangjie_b_upper, long_click: "~", key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_n, long_click: "'", key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_m, long_click: '"', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_n_upper, long_click: "'", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_m_upper, long_click: '"', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_number, long_click: Schema_switch, swipe_up: Keyboard_letter, width: 12.5, key_back_color: bgn, key_text_color: tgn}
@@ -3935,9 +3935,32 @@ preset_keys:
   Keyboard_cangjie: {label: 仓颉, functional: false, send: Eisu_toggle, select: cangjie5_tradsimp}
   Keyboard_cangjie_upper: {label: 仓颉2, functional: false, send: Eisu_toggle, select: cangjie5_tradsimp_upper}
 
-  cangjie_a_upper: {label: '日', functional: false, text: '{A}{Keyboard_cangjie}'}
-  cangjie_b_upper: {label: '月', functional: false, text: '{send|B}{send|Keyboard_cangjie}'}
-  cangjie_c_upper: {label: 'C', functional: false, send: 'C', select: cangjie5_tradsimp}
+  cangjie_a_upper: {label: 'A', functional: false, text: '{A}{Keyboard_cangjie}'}
+  cangjie_b_upper: {label: 'B', functional: false, text: '{B}{Keyboard_cangjie}'}
+  cangjie_c_upper: {label: 'C', functional: false, text: '{C}{Keyboard_cangjie}'}
+  cangjie_d_upper: {label: 'D', functional: false, text: '{D}{Keyboard_cangjie}'}
+  cangjie_e_upper: {label: 'E', functional: false, text: '{E}{Keyboard_cangjie}'}
+  cangjie_f_upper: {label: 'F', functional: false, text: '{F}{Keyboard_cangjie}'}
+  cangjie_g_upper: {label: 'G', functional: false, text: '{G}{Keyboard_cangjie}'}
+  cangjie_h_upper: {label: 'H', functional: false, text: '{H}{Keyboard_cangjie}'}
+  cangjie_i_upper: {label: 'I', functional: false, text: '{I}{Keyboard_cangjie}'}
+  cangjie_j_upper: {label: 'J', functional: false, text: '{J}{Keyboard_cangjie}'}
+  cangjie_k_upper: {label: 'K', functional: false, text: '{K}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'L', functional: false, text: '{L}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'M', functional: false, text: '{M}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'N', functional: false, text: '{N}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'O', functional: false, text: '{O}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'P', functional: false, text: '{P}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'Q', functional: false, text: '{Q}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'R', functional: false, text: '{R}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'S', functional: false, text: '{S}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'T', functional: false, text: '{T}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'U', functional: false, text: '{U}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'V', functional: false, text: '{V}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'W', functional: false, text: '{W}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'X', functional: false, text: '{X}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'Y', functional: false, text: '{Y}{Keyboard_cangjie}'}
+  cangjie_l_upper: {label: 'Z', functional: false, text: '{Z}{Keyboard_cangjie}'}
 
   cangjie_a: {label: '日', functional: false, send: 'a'}
   cangjie_b: {label: '月', functional: false, send: 'b'}
