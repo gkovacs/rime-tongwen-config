@@ -863,25 +863,25 @@ preset_keyboards:
       - {click: p, long_click: 0, key_back_color: bh1, key_text_color: th1}
 
       - {width: 5, key_back_color: bh2, key_text_color: th2}
-      - {click: a, long_click: '`', swipe_down: '`V', key_back_color: bh2, key_text_color: th2}
+      - {click: a, long_click: '`', key_back_color: bh2, key_text_color: th2}
       - {click: s, long_click: '@', key_back_color: bh2, key_text_color: th2}
       - {click: d, long_click: '#', key_back_color: bh2, key_text_color: th2}
       - {click: f, long_click: '$', key_back_color: bh2, key_text_color: th2}
-      - {click: g, long_click: '%', swipe_down: "date_time", key_back_color: bh2, key_text_color: th2}
-      - {click: h, long_click: '!', swipe_down: "+", key_back_color: bh2, key_text_color: th2}
-      - {click: j, long_click: '&', swipe_down: "-", key_back_color: bh2, key_text_color: th2}
-      - {click: k, long_click: '*', swipe_down: "_", key_back_color: bh2, key_text_color: th2}
-      - {click: l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
+      - {click: g, long_click: '%', key_back_color: bh2, key_text_color: th2}
+      - {click: h, long_click: '!', key_back_color: bh2, key_text_color: th2}
+      - {click: j, long_click: '&', key_back_color: bh2, key_text_color: th2}
+      - {click: k, long_click: '*', key_back_color: bh2, key_text_color: th2}
+      - {click: l, long_click: '(){Left}', key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
       - {click: Shift_L, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
-      - {click: z, long_click: '`C', swipe_down: '`F', key_back_color: bh3, key_text_color: th3}
-      - {click: x, long_click: '`H', swipe_down: '`L', key_back_color: bh3, key_text_color: th3}
-      - {click: c, long_click: '`N', swipe_down: '`K', key_back_color: bh3, key_text_color: th3}
-      - {click: v, long_click: '^', swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
+      - {click: z, long_click: '`C', swipe_down: '`H', key_back_color: bh3, key_text_color: th3}
+      - {click: x, long_click: '`F', swipe_down: '`N', key_back_color: bh3, key_text_color: th3}
+      - {click: c, long_click: '`J', swipe_down: '`K', key_back_color: bh3, key_text_color: th3}
+      - {click: v, long_click: '`L', swipe_down: '`V', key_back_color: bh3, key_text_color: th3}
       - {click: b, long_click: "~", key_back_color: bh3, key_text_color: th3}
       - {click: n, long_click: "'", key_back_color: bh3, key_text_color: th3}
-      - {click: m, long_click: '"', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
+      - {click: m, long_click: '"', key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_number, long_click: Schema_switch, swipe_up: Keyboard_cangjie, width: 12.5, key_back_color: bgn, key_text_color: tgn}
@@ -911,25 +911,25 @@ preset_keyboards:
       - {click: cangjie_p, long_click: 0, key_back_color: bh1, key_text_color: th1}
 
       - {width: 5, key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_a, long_click: '`', swipe_down: '`V', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_a, long_click: '`', key_back_color: bh2, key_text_color: th2}
       - {click: cangjie_s, long_click: '@', key_back_color: bh2, key_text_color: th2}
       - {click: cangjie_d, long_click: '#', key_back_color: bh2, key_text_color: th2}
       - {click: cangjie_f, long_click: '$', key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_g, long_click: '%', swipe_down: "date_time", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_h, long_click: '!', swipe_down: "+", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_j, long_click: '&', swipe_down: "-", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_k, long_click: '*', swipe_down: "_", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_g, long_click: '%', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_h, long_click: '!', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_j, long_click: '&', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_k, long_click: '*', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_l, long_click: '(){Left}', key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
       - {click: Keyboard_cangjie_upper, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
-      - {click: cangjie_z, long_click: '`C', swipe_down: '`F', key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_x, long_click: '`H', swipe_down: '`L', key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_c, long_click: '`N', swipe_down: '`K', key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_v, long_click: '^', swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_z, long_click: '`C', swipe_down: '`H', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_x, long_click: '`F', swipe_down: '`N', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_c, long_click: '`J', swipe_down: '`K', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_v, long_click: '`L', swipe_down: '`V', key_back_color: bh3, key_text_color: th3}
       - {click: cangjie_b, long_click: "~", key_back_color: bh3, key_text_color: th3}
       - {click: cangjie_n, long_click: "'", key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_m, long_click: '"', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_m, long_click: '"', key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_number, long_click: Schema_switch, swipe_up: Keyboard_letter, width: 12.5, key_back_color: bgn, key_text_color: tgn}
@@ -959,25 +959,25 @@ preset_keyboards:
       - {click: cangjie_p_upper, long_click: 0, key_back_color: bh1, key_text_color: th1}
 
       - {width: 5, key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_a_upper, long_click: '`', swipe_down: '`V', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_a_upper, long_click: '`', key_back_color: bh2, key_text_color: th2}
       - {click: cangjie_s_upper, long_click: '@', key_back_color: bh2, key_text_color: th2}
       - {click: cangjie_d_upper, long_click: '#', key_back_color: bh2, key_text_color: th2}
       - {click: cangjie_f_upper, long_click: '$', key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_g_upper, long_click: '%', swipe_down: "date_time", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_h_upper, long_click: '!', swipe_down: "+", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_j_upper, long_click: '&', swipe_down: "-", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_k_upper, long_click: '*', swipe_down: "_", key_back_color: bh2, key_text_color: th2}
-      - {click: cangjie_l_upper, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_g_upper, long_click: '%', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_h_upper, long_click: '!', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_j_upper, long_click: '&', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_k_upper, long_click: '*', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_l_upper, long_click: '(){Left}', key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
       - {click: Keyboard_cangjie, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
-      - {click: cangjie_z_upper, long_click: '`C', swipe_down: '`F', key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_x_upper, long_click: '`H', swipe_down: '`L', key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_c_upper, long_click: '`N', swipe_down: '`K', key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_v_upper, long_click: '^', swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_z_upper, long_click: '`C', swipe_down: '`H', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_x_upper, long_click: '`F', swipe_down: '`N', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_c_upper, long_click: '`J', swipe_down: '`K', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_v_upper, long_click: '`L', swipe_down: '`V', key_back_color: bh3, key_text_color: th3}
       - {click: cangjie_b_upper, long_click: "~", key_back_color: bh3, key_text_color: th3}
       - {click: cangjie_n_upper, long_click: "'", key_back_color: bh3, key_text_color: th3}
-      - {click: cangjie_m_upper, long_click: '"', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_m_upper, long_click: '"', key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_number, long_click: Schema_switch, swipe_up: Keyboard_letter, width: 12.5, key_back_color: bgn, key_text_color: tgn}
