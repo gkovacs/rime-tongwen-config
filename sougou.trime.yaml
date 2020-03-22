@@ -992,6 +992,9 @@ preset_keyboards:
   td_pinyin_flypy_extra:
     import_preset: cangjie5_tradsimp
 
+  double_pinyin_extra:
+    import_preset: cangjie5_tradsimp
+
   letter:
     author: "暖暖"
     name: 26键默认布局2
