@@ -4023,6 +4023,33 @@ preset_keys:
   yue_x: {functional: false, text: '{o}{j}{x}'}
   yue_z: {functional: false, text: '{o}{j}{z}'}
 
+  prq_a: {functional: false, text: '{q}{a}'}
+  prq_b: {functional: false, text: '{q}{b}'}
+  prq_c: {functional: false, text: '{q}{c}'}
+  prq_d: {functional: false, text: '{q}{d}'}
+  prq_e: {functional: false, text: '{q}{e}'}
+  prq_f: {functional: false, text: '{q}{f}'}
+  prq_g: {functional: false, text: '{q}{g}'}
+  prq_h: {functional: false, text: '{q}{h}'}
+  prq_i: {functional: false, text: '{q}{i}'}
+  prq_j: {functional: false, text: '{q}{j}'}
+  prq_k: {functional: false, text: '{q}{k}'}
+  prq_l: {functional: false, text: '{q}{l}'}
+  prq_m: {functional: false, text: '{q}{m}'}
+  prq_n: {functional: false, text: '{q}{n}'}
+  prq_o: {functional: false, text: '{q}{o}'}
+  prq_p: {functional: false, text: '{q}{p}'}
+  prq_q: {functional: false, text: '{q}{q}'}
+  prq_r: {functional: false, text: '{q}{r}'}
+  prq_s: {functional: false, text: '{q}{s}'}
+  prq_t: {functional: false, text: '{q}{t}'}
+  prq_u: {functional: false, text: '{q}{u}'}
+  prq_v: {functional: false, text: '{q}{v}'}
+  prq_w: {functional: false, text: '{q}{w}'}
+  prq_y: {functional: false, text: '{q}{y}'}
+  prq_x: {functional: false, text: '{q}{x}'}
+  prq_z: {functional: false, text: '{q}{z}'}
+
   Left1: {label: '⇦', send: Control+Left, repeatable: true, functional: false}
   Right1: {label: '⇨', send: Control+Right, repeatable: true, functional: false}
   Shift_L2: {label: 选择, preview: '⇪', functional: false, send: Shift_L}
