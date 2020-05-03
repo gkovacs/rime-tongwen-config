@@ -993,7 +993,52 @@ preset_keyboards:
     import_preset: cangjie5_tradsimp
 
   double_jyutping_extra:
-    import_preset: cangjie5_tradsimp
+    author: "暖暖"
+    name: 仓颉
+    width: 10
+  #  height: 48
+    ascii_mode: 0
+    keys:
+      - {click: cangjie_q, swipe_up: Q, swipe_down: prq_q, long_click: 1, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_w, swipe_up: W, swipe_down: prq_w, long_click: 2, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_e, swipe_up: E, swipe_down: prq_e, long_click: 3, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_r, swipe_up: R, swipe_down: prq_r, long_click: 4, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_t, swipe_up: T, swipe_down: prq_t, long_click: 5, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_y, swipe_up: Y, swipe_down: prq_y, long_click: 6, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_u, swipe_up: U, swipe_down: prq_u, long_click: 7, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_i, swipe_up: I, swipe_down: prq,i, long_click: 8, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_o, swipe_up: O, swipe_down: prq_o, long_click: 9, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_p, swipe_up: P, swipe_down: prq_p, long_click: 0, key_back_color: bh1, key_text_color: th1}
+
+      - {width: 5, key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_a, swipe_up: A, swipe_down: prq_a, long_click: '`', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_s, swipe_up: S, swipe_down: prq_s, long_click: '@', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_d, swipe_up: D, swipe_down: prq_d, long_click: '#', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_f, swipe_up: F, swipe_down: prq_f, long_click: '$', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_g, swipe_up: G, swipe_down: prq_g, long_click: '%', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_h, swipe_up: H, swipe_down: prq_h, long_click: '!', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_j, swipe_up: J, swipe_down: prq_j, long_click: '&', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_k, swipe_up: K, swipe_down: prq_k, long_click: '*', key_back_color: bh2, key_text_color: th2}
+      - {click: cangjie_l, swipe_up: L, swipe_down: prq_l, long_click: '(){Left}', key_back_color: bh2, key_text_color: th2}
+      - {width: 5, key_back_color: bh2, key_text_color: th2}
+
+      - {click: Keyboard_cangjie_upper, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+      - {click: cangjie_z, swipe_up: Z, swipe_down: prq_z, long_click: "\\", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_x, swipe_up: X, swipe_down: prq_x, long_click: '_', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_c, swipe_up: C, swipe_down: prq_c, long_click: '-', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_v, swipe_up: V, swipe_down: prq_v, long_click: '^', key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_b, swipe_up: B, swipe_down: prq_b, long_click: "~", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_n, swipe_up: N, swipe_down: prq_n, long_click: "'", key_back_color: bh3, key_text_color: th3}
+      - {click: cangjie_m, swipe_up: M, swipe_down: prq_m, long_click: '"', key_back_color: bh3, key_text_color: th3}
+      - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
+
+      - {click: Keyboard_number, long_click: Schema_switch, swipe_up: Keyboard_letter, width: 12.5, key_back_color: bgn, key_text_color: tgn}
+      - {click: ";", long_click: ":", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: "/", long_click: "?", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Menu, width: 32.5, key_back_color: bkg, key_text_color: tkg}
+      - {click: ",", long_click: "<", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: ".", long_click: ">", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: Return, swipe_up: Escape, long_click: CommitComment, width: 15, key_back_color: benter, key_text_color: tenter}
 
   letter:
     author: "暖暖"
