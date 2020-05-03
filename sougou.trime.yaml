@@ -884,10 +884,10 @@ preset_keyboards:
       - {click: m, swipe_up: M, long_click: '"', key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
-      - {click: Keyboard_number, long_click: Schema_switch, swipe_up: Keyboard_cangjie, width: 12.5, key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_number, long_click: Menu, swipe_up: Keyboard_cangjie, width: 12.5, key_back_color: bgn, key_text_color: tgn}
       - {click: ";", long_click: ":", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: "/", long_click: "?", send_bindings: false, key_back_color: bh4, key_text_color: th4}
-      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Menu, width: 32.5, key_back_color: bkg, key_text_color: tkg}
+      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switch, width: 32.5, key_back_color: bkg, key_text_color: tkg}
       - {click: ",", long_click: "<", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: ".", long_click: ">", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: Return, swipe_up: Escape, long_click: CommitComment, width: 15, key_back_color: benter, key_text_color: tenter}
@@ -932,10 +932,10 @@ preset_keyboards:
       - {click: cangjie_m, swipe_up: M, swipe_down: yue_m, long_click: '"', key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
-      - {click: Keyboard_number, long_click: Schema_switch, swipe_up: Keyboard_letter, width: 12.5, key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_number, long_click: Menu, swipe_up: Keyboard_letter, width: 12.5, key_back_color: bgn, key_text_color: tgn}
       - {click: ";", long_click: ":", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: "/", long_click: "?", send_bindings: false, key_back_color: bh4, key_text_color: th4}
-      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Menu, width: 32.5, key_back_color: bkg, key_text_color: tkg}
+      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switch, width: 32.5, key_back_color: bkg, key_text_color: tkg}
       - {click: ",", long_click: "<", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: ".", long_click: ">", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: Return, swipe_up: Escape, long_click: CommitComment, width: 15, key_back_color: benter, key_text_color: tenter}
@@ -980,10 +980,10 @@ preset_keyboards:
       - {click: cangjie_m_upper, long_click: '"', key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
-      - {click: Keyboard_number, long_click: Schema_switch, swipe_up: Keyboard_letter, width: 12.5, key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_number, long_click: Menu, swipe_up: Keyboard_letter, width: 12.5, key_back_color: bgn, key_text_color: tgn}
       - {click: ";", long_click: ":", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: "/", long_click: "?", send_bindings: false, key_back_color: bh4, key_text_color: th4}
-      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Menu, width: 32.5, key_back_color: bkg, key_text_color: tkg}
+      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switch, width: 32.5, key_back_color: bkg, key_text_color: tkg}
       - {click: ",", long_click: "<", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: ".", long_click: ">", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: Return, swipe_up: Escape, long_click: CommitComment, width: 15, key_back_color: benter, key_text_color: tenter}
@@ -1006,7 +1006,7 @@ preset_keyboards:
       - {click: cangjie_t, swipe_up: T, swipe_down: prq_t, long_click: 5, key_back_color: bh1, key_text_color: th1}
       - {click: cangjie_y, swipe_up: Y, swipe_down: prq_y, long_click: 6, key_back_color: bh1, key_text_color: th1}
       - {click: cangjie_u, swipe_up: U, swipe_down: prq_u, long_click: 7, key_back_color: bh1, key_text_color: th1}
-      - {click: cangjie_i, swipe_up: I, swipe_down: prq,i, long_click: 8, key_back_color: bh1, key_text_color: th1}
+      - {click: cangjie_i, swipe_up: I, swipe_down: prq_i, long_click: 8, key_back_color: bh1, key_text_color: th1}
       - {click: cangjie_o, swipe_up: O, swipe_down: prq_o, long_click: 9, key_back_color: bh1, key_text_color: th1}
       - {click: cangjie_p, swipe_up: P, swipe_down: prq_p, long_click: 0, key_back_color: bh1, key_text_color: th1}
 
@@ -1032,10 +1032,10 @@ preset_keyboards:
       - {click: cangjie_m, swipe_up: M, swipe_down: prq_m, long_click: '"', key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
-      - {click: Keyboard_number, long_click: Schema_switch, swipe_up: Keyboard_letter, width: 12.5, key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_number, long_click: Menu, swipe_up: Keyboard_letter, width: 12.5, key_back_color: bgn, key_text_color: tgn}
       - {click: ";", long_click: ":", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: "/", long_click: "?", send_bindings: false, key_back_color: bh4, key_text_color: th4}
-      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Menu, width: 32.5, key_back_color: bkg, key_text_color: tkg}
+      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switch, width: 32.5, key_back_color: bkg, key_text_color: tkg}
       - {click: ",", long_click: "<", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: ".", long_click: ">", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: Return, swipe_up: Escape, long_click: CommitComment, width: 15, key_back_color: benter, key_text_color: tenter}
