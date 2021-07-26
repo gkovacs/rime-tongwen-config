@@ -4167,32 +4167,32 @@ preset_keys:
   swp_x: {functional: false, text: '{;}{x}'}
   swp_z: {functional: false, text: '{;}{z}'}
 
-  swp_a_upper: {functional: false, text: '{;}{A}'}
-  swp_b_upper: {functional: false, text: '{;}{B}'}
-  swp_c_upper: {functional: false, text: '{;}{C}'}
-  swp_d_upper: {functional: false, text: '{;}{D}'}
-  swp_e_upper: {functional: false, text: '{;}{E}'}
-  swp_f_upper: {functional: false, text: '{;}{F}'}
-  swp_g_upper: {functional: false, text: '{;}{G}'}
-  swp_h_upper: {functional: false, text: '{;}{H}'}
-  swp_i_upper: {functional: false, text: '{;}{I}'}
-  swp_j_upper: {functional: false, text: '{;}{J}'}
-  swp_k_upper: {functional: false, text: '{;}{K}'}
-  swp_l_upper: {functional: false, text: '{;}{L}'}
-  swp_m_upper: {functional: false, text: '{;}{M}'}
-  swp_n_upper: {functional: false, text: '{;}{N}'}
-  swp_o_upper: {functional: false, text: '{;}{O}'}
-  swp_p_upper: {functional: false, text: '{;}{P}'}
-  swp_q_upper: {functional: false, text: '{;}{Q}'}
-  swp_r_upper: {functional: false, text: '{;}{R}'}
-  swp_s_upper: {functional: false, text: '{;}{S}'}
-  swp_t_upper: {functional: false, text: '{;}{T}'}
-  swp_u_upper: {functional: false, text: '{;}{U}'}
-  swp_v_upper: {functional: false, text: '{;}{V}'}
-  swp_w_upper: {functional: false, text: '{;}{W}'}
-  swp_y_upper: {functional: false, text: '{;}{Y}'}
-  swp_x_upper: {functional: false, text: '{;}{X}'}
-  swp_z_upper: {functional: false, text: '{;}{Z}'}
+  swp_a_upper: {functional: false, text: '{;}{A}{Keyboard_spanish}'}
+  swp_b_upper: {functional: false, text: '{;}{B}{Keyboard_spanish}'}
+  swp_c_upper: {functional: false, text: '{;}{C}{Keyboard_spanish}'}
+  swp_d_upper: {functional: false, text: '{;}{D}{Keyboard_spanish}'}
+  swp_e_upper: {functional: false, text: '{;}{E}{Keyboard_spanish}'}
+  swp_f_upper: {functional: false, text: '{;}{F}{Keyboard_spanish}'}
+  swp_g_upper: {functional: false, text: '{;}{G}{Keyboard_spanish}'}
+  swp_h_upper: {functional: false, text: '{;}{H}{Keyboard_spanish}'}
+  swp_i_upper: {functional: false, text: '{;}{I}{Keyboard_spanish}'}
+  swp_j_upper: {functional: false, text: '{;}{J}{Keyboard_spanish}'}
+  swp_k_upper: {functional: false, text: '{;}{K}{Keyboard_spanish}'}
+  swp_l_upper: {functional: false, text: '{;}{L}{Keyboard_spanish}'}
+  swp_m_upper: {functional: false, text: '{;}{M}{Keyboard_spanish}'}
+  swp_n_upper: {functional: false, text: '{;}{N}{Keyboard_spanish}'}
+  swp_o_upper: {functional: false, text: '{;}{O}{Keyboard_spanish}'}
+  swp_p_upper: {functional: false, text: '{;}{P}{Keyboard_spanish}'}
+  swp_q_upper: {functional: false, text: '{;}{Q}{Keyboard_spanish}'}
+  swp_r_upper: {functional: false, text: '{;}{R}{Keyboard_spanish}'}
+  swp_s_upper: {functional: false, text: '{;}{S}{Keyboard_spanish}'}
+  swp_t_upper: {functional: false, text: '{;}{T}{Keyboard_spanish}'}
+  swp_u_upper: {functional: false, text: '{;}{U}{Keyboard_spanish}'}
+  swp_v_upper: {functional: false, text: '{;}{V}{Keyboard_spanish}'}
+  swp_w_upper: {functional: false, text: '{;}{W}{Keyboard_spanish}'}
+  swp_y_upper: {functional: false, text: '{;}{Y}{Keyboard_spanish}'}
+  swp_x_upper: {functional: false, text: '{;}{X}{Keyboard_spanish}'}
+  swp_z_upper: {functional: false, text: '{;}{Z}{Keyboard_spanish}'}
 
   swp_semicolon: {label: ';', functional: false, text: '{;}{;}'}
 
