@@ -70,7 +70,7 @@ style:
   key_long_text_size: 18 #长标签字号
   key_text_size: 24 #键字号
   key_width: 10.0 #键宽，占屏幕宽的百分比
-  keyboards: [.default, letter, default, cangjie5_tradsimp, cangjie5_tradsimp_upper, td_pinyin_flypy_extra, double_jyutping_extra, spanish, number, symbols, edit, move, bqrw1, bqrw2, bqrw3, bqrw4, bqrw5, bqqt1, bqqt2, bqqt3, bqqt4, bqqz1, bqqz2, bqqz3, bqqz4, bqqz5, bqpt1, bqpt2, bqhd1, bqhd2, bqhc1, bqhc2, bqlx1, bqlx2, bqlx3, bqlx4, bqlx5, bqkj1, bqkj2, bqkj3, bqkj4, bqfh1, bqfh2, bqfh3, bqfh4, kao_fond, kao_sad, kao_mad, kao_astonished, kao_impotent, kao_happy, numberb] #键盘配置
+  keyboards: [.default, letter, default, cangjie5_tradsimp, cangjie5_tradsimp_upper, td_pinyin_flypy_extra, double_jyutping_extra, spanish, spanish_upper, number, symbols, edit, move, bqrw1, bqrw2, bqrw3, bqrw4, bqrw5, bqqt1, bqqt2, bqqt3, bqqt4, bqqz1, bqqz2, bqqz3, bqqz4, bqqz5, bqpt1, bqpt2, bqhd1, bqhd2, bqhc1, bqhc2, bqlx1, bqlx2, bqlx3, bqlx4, bqlx5, bqkj1, bqkj2, bqkj3, bqkj4, bqfh1, bqfh2, bqfh3, bqfh4, kao_fond, kao_sad, kao_mad, kao_astonished, kao_impotent, kao_happy, numberb] #键盘配置
   label_text_size: 22 #标签字号
   label_font: label.ttf #编标签字体
   latin_font: latin.ttf #西文本体
@@ -922,7 +922,7 @@ preset_keyboards:
       - {click: l, swipe_up: L, swipe_down: swp_l, long_click: '(){Left}', key_back_color: bh2, key_text_color: th2}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
-      - {click: Shift_L, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+      - {click: Keyboard_spanish_upper, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
       - {click: z, swipe_up: Z, swipe_down: swp_z, long_click: "\\", key_back_color: bh3, key_text_color: th3}
       - {click: x, swipe_up: X, swipe_down: swp_x, long_click: '_', key_back_color: bh3, key_text_color: th3}
       - {click: c, swipe_up: C, swipe_down: swp_c, long_click: '-', key_back_color: bh3, key_text_color: th3}
@@ -940,6 +940,53 @@ preset_keyboards:
       - {click: ".", long_click: ">", send_bindings: false, key_back_color: bh4, key_text_color: th4}
       - {click: Return, swipe_up: Escape, long_click: CommitComment, width: 15, key_back_color: benter, key_text_color: tenter}
 
+  spanish_upper:
+    author: "暖暖"
+    name: 26键默认布局
+    width: 10
+  #  height: 48
+    ascii_mode: 0
+    keys:
+      - {click: Q, swipe_up: Q, swipe_down: swp_q_upper, long_click: 1, key_back_color: bh1, key_text_color: th1}
+      - {click: W, swipe_up: W, swipe_down: swp_w_upper, long_click: 2, key_back_color: bh1, key_text_color: th1}
+      - {click: E, swipe_up: E, swipe_down: swp_e_upper, long_click: 3, key_back_color: bh1, key_text_color: th1}
+      - {click: R, swipe_up: R, swipe_down: swp_r_upper, long_click: 4, key_back_color: bh1, key_text_color: th1}
+      - {click: T, swipe_up: T, swipe_down: swp_t_upper, long_click: 5, key_back_color: bh1, key_text_color: th1}
+      - {click: Y, swipe_up: Y, swipe_down: swp_y_upper, long_click: 6, key_back_color: bh1, key_text_color: th1}
+      - {click: U, swipe_up: U, swipe_down: swp_u_upper, long_click: 7, key_back_color: bh1, key_text_color: th1}
+      - {click: I, swipe_up: I, swipe_down: swp_i_upper, long_click: 8, key_back_color: bh1, key_text_color: th1}
+      - {click: O, swipe_up: O, swipe_down: swp_o_upper, long_click: 9, key_back_color: bh1, key_text_color: th1}
+      - {click: P, swipe_up: P, swipe_down: swp_p_upper, long_click: 0, key_back_color: bh1, key_text_color: th1}
+
+      - {width: 5, key_back_color: bh2, key_text_color: th2}
+      - {click: A, swipe_up: A, swipe_down: swp_a_upper, long_click: '`', key_back_color: bh2, key_text_color: th2}
+      - {click: S, swipe_up: S, swipe_down: swp_s_upper, long_click: '@', key_back_color: bh2, key_text_color: th2}
+      - {click: D, swipe_up: D, swipe_down: swp_d_upper, long_click: '#', key_back_color: bh2, key_text_color: th2}
+      - {click: F, swipe_up: F, swipe_down: swp_f_upper, long_click: '$', key_back_color: bh2, key_text_color: th2}
+      - {click: G, swipe_up: G, swipe_down: swp_g_upper, long_click: '%', key_back_color: bh2, key_text_color: th2}
+      - {click: H, swipe_up: H, swipe_down: swp_h_upper, long_click: '!', key_back_color: bh2, key_text_color: th2}
+      - {click: J, swipe_up: J, swipe_down: swp_j_upper, long_click: '&', key_back_color: bh2, key_text_color: th2}
+      - {click: K, swipe_up: K, swipe_down: swp_k_upper, long_click: '*', key_back_color: bh2, key_text_color: th2}
+      - {click: L, swipe_up: L, swipe_down: swp_l_upper, long_click: '(){Left}', key_back_color: bh2, key_text_color: th2}
+      - {width: 5, key_back_color: bh2, key_text_color: th2}
+
+      - {click: Keyboard_spanish, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+      - {click: Z, swipe_up: Z, swipe_down: swp_z_upper, long_click: "\\", key_back_color: bh3, key_text_color: th3}
+      - {click: X, swipe_up: X, swipe_down: swp_x_upper, long_click: '_', key_back_color: bh3, key_text_color: th3}
+      - {click: C, swipe_up: C, swipe_down: swp_c_upper, long_click: '-', key_back_color: bh3, key_text_color: th3}
+      - {click: V, swipe_up: V, swipe_down: swp_v_upper, long_click: '^', key_back_color: bh3, key_text_color: th3}
+      - {click: B, swipe_up: B, swipe_down: swp_b_upper, long_click: "~", key_back_color: bh3, key_text_color: th3}
+      - {click: N, swipe_up: N, swipe_down: swp_n_upper, long_click: "'", key_back_color: bh3, key_text_color: th3}
+      - {click: M, swipe_up: M, swipe_down: swp_m_upper, long_click: '"', key_back_color: bh3, key_text_color: th3}
+      - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
+
+      - {click: Keyboard_number, long_click: Menu, width: 12.5, key_back_color: bgn, key_text_color: tgn}
+      - {click: swp_semicolon, long_click: ":", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: "/", long_click: "?", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: space, long_click: Mode_switch, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switch, width: 32.5, key_back_color: bkg, key_text_color: tkg}
+      - {click: ",", long_click: "<", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: ".", long_click: ">", send_bindings: false, key_back_color: bh4, key_text_color: th4}
+      - {click: Return, swipe_up: Escape, long_click: CommitComment, width: 15, key_back_color: benter, key_text_color: tenter}
 
   cangjie5_tradsimp:
     author: "暖暖"
@@ -4090,6 +4137,9 @@ preset_keys:
   cangjie_x: {label: '难', functional: false, send: 'x'}
   cangjie_z: {label: '重', functional: false, send: 'z'}
 
+  Keyboard_spanish: {label: 小写, functional: false, send: Eisu_toggle, select: spanish}
+  Keyboard_spanish_upper: {label: 大写, functional: false, send: Eisu_toggle, select: spanish_upper}
+
   swp_a: {functional: false, text: '{;}{a}'}
   swp_b: {functional: false, text: '{;}{b}'}
   swp_c: {functional: false, text: '{;}{c}'}
@@ -4117,7 +4167,34 @@ preset_keys:
   swp_x: {functional: false, text: '{;}{x}'}
   swp_z: {functional: false, text: '{;}{z}'}
 
-  swp_semicolon: {functional: false, text: '{;}{;}'}
+  swp_a_upper: {functional: false, text: '{;}{A}'}
+  swp_b_upper: {functional: false, text: '{;}{B}'}
+  swp_c_upper: {functional: false, text: '{;}{C}'}
+  swp_d_upper: {functional: false, text: '{;}{D}'}
+  swp_e_upper: {functional: false, text: '{;}{E}'}
+  swp_f_upper: {functional: false, text: '{;}{F}'}
+  swp_g_upper: {functional: false, text: '{;}{G}'}
+  swp_h_upper: {functional: false, text: '{;}{H}'}
+  swp_i_upper: {functional: false, text: '{;}{I}'}
+  swp_j_upper: {functional: false, text: '{;}{J}'}
+  swp_k_upper: {functional: false, text: '{;}{K}'}
+  swp_l_upper: {functional: false, text: '{;}{L}'}
+  swp_m_upper: {functional: false, text: '{;}{M}'}
+  swp_n_upper: {functional: false, text: '{;}{N}'}
+  swp_o_upper: {functional: false, text: '{;}{O}'}
+  swp_p_upper: {functional: false, text: '{;}{P}'}
+  swp_q_upper: {functional: false, text: '{;}{Q}'}
+  swp_r_upper: {functional: false, text: '{;}{R}'}
+  swp_s_upper: {functional: false, text: '{;}{S}'}
+  swp_t_upper: {functional: false, text: '{;}{T}'}
+  swp_u_upper: {functional: false, text: '{;}{U}'}
+  swp_v_upper: {functional: false, text: '{;}{V}'}
+  swp_w_upper: {functional: false, text: '{;}{W}'}
+  swp_y_upper: {functional: false, text: '{;}{Y}'}
+  swp_x_upper: {functional: false, text: '{;}{X}'}
+  swp_z_upper: {functional: false, text: '{;}{Z}'}
+
+  swp_semicolon: {label: ';', functional: false, text: '{;}{;}'}
 
   yue_a: {functional: false, text: '{o}{j}{a}'}
   yue_b: {functional: false, text: '{o}{j}{b}'}
