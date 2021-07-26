@@ -4167,32 +4167,32 @@ preset_keys:
   swp_x: {functional: false, text: '{;}{x}'}
   swp_z: {functional: false, text: '{;}{z}'}
 
-  spn_a_upper: {functional: false, text: '{A}{Keyboard_spanish}'}
-  spn_b_upper: {functional: false, text: '{B}{Keyboard_spanish}'}
-  spn_c_upper: {functional: false, text: '{C}{Keyboard_spanish}'}
-  spn_d_upper: {functional: false, text: '{D}{Keyboard_spanish}'}
-  spn_e_upper: {functional: false, text: '{E}{Keyboard_spanish}'}
-  spn_f_upper: {functional: false, text: '{F}{Keyboard_spanish}'}
-  spn_g_upper: {functional: false, text: '{G}{Keyboard_spanish}'}
-  spn_h_upper: {functional: false, text: '{H}{Keyboard_spanish}'}
-  spn_i_upper: {functional: false, text: '{I}{Keyboard_spanish}'}
-  spn_j_upper: {functional: false, text: '{J}{Keyboard_spanish}'}
-  spn_k_upper: {functional: false, text: '{K}{Keyboard_spanish}'}
-  spn_l_upper: {functional: false, text: '{L}{Keyboard_spanish}'}
-  spn_m_upper: {functional: false, text: '{M}{Keyboard_spanish}'}
-  spn_n_upper: {functional: false, text: '{N}{Keyboard_spanish}'}
-  spn_o_upper: {functional: false, text: '{O}{Keyboard_spanish}'}
-  spn_p_upper: {functional: false, text: '{P}{Keyboard_spanish}'}
-  spn_q_upper: {functional: false, text: '{Q}{Keyboard_spanish}'}
-  spn_r_upper: {functional: false, text: '{R}{Keyboard_spanish}'}
-  spn_s_upper: {functional: false, text: '{S}{Keyboard_spanish}'}
-  spn_t_upper: {functional: false, text: '{T}{Keyboard_spanish}'}
-  spn_u_upper: {functional: false, text: '{U}{Keyboard_spanish}'}
-  spn_v_upper: {functional: false, text: '{V}{Keyboard_spanish}'}
-  spn_w_upper: {functional: false, text: '{W}{Keyboard_spanish}'}
-  spn_y_upper: {functional: false, text: '{Y}{Keyboard_spanish}'}
-  spn_x_upper: {functional: false, text: '{X}{Keyboard_spanish}'}
-  spn_z_upper: {functional: false, text: '{Z}{Keyboard_spanish}'}
+  spn_a_upper: {label: 'A', functional: false, text: '{A}{Keyboard_spanish}'}
+  spn_b_upper: {label: 'B', functional: false, text: '{B}{Keyboard_spanish}'}
+  spn_c_upper: {label: 'C', functional: false, text: '{C}{Keyboard_spanish}'}
+  spn_d_upper: {label: 'D', functional: false, text: '{D}{Keyboard_spanish}'}
+  spn_e_upper: {label: 'E', functional: false, text: '{E}{Keyboard_spanish}'}
+  spn_f_upper: {label: 'F', functional: false, text: '{F}{Keyboard_spanish}'}
+  spn_g_upper: {label: 'G', functional: false, text: '{G}{Keyboard_spanish}'}
+  spn_h_upper: {label: 'H', functional: false, text: '{H}{Keyboard_spanish}'}
+  spn_i_upper: {label: 'I', functional: false, text: '{I}{Keyboard_spanish}'}
+  spn_j_upper: {label: 'J', functional: false, text: '{J}{Keyboard_spanish}'}
+  spn_k_upper: {label: 'K', functional: false, text: '{K}{Keyboard_spanish}'}
+  spn_l_upper: {label: 'L', functional: false, text: '{L}{Keyboard_spanish}'}
+  spn_m_upper: {label: 'M', functional: false, text: '{M}{Keyboard_spanish}'}
+  spn_n_upper: {label: 'N', functional: false, text: '{N}{Keyboard_spanish}'}
+  spn_o_upper: {label: 'O', functional: false, text: '{O}{Keyboard_spanish}'}
+  spn_p_upper: {label: 'P', functional: false, text: '{P}{Keyboard_spanish}'}
+  spn_q_upper: {label: 'Q', functional: false, text: '{Q}{Keyboard_spanish}'}
+  spn_r_upper: {label: 'R', functional: false, text: '{R}{Keyboard_spanish}'}
+  spn_s_upper: {label: 'S', functional: false, text: '{S}{Keyboard_spanish}'}
+  spn_t_upper: {label: 'T', functional: false, text: '{T}{Keyboard_spanish}'}
+  spn_u_upper: {label: 'U', functional: false, text: '{U}{Keyboard_spanish}'}
+  spn_v_upper: {label: 'V', functional: false, text: '{V}{Keyboard_spanish}'}
+  spn_w_upper: {label: 'W', functional: false, text: '{W}{Keyboard_spanish}'}
+  spn_y_upper: {label: 'Y', functional: false, text: '{Y}{Keyboard_spanish}'}
+  spn_x_upper: {label: 'X', functional: false, text: '{X}{Keyboard_spanish}'}
+  spn_z_upper: {label: 'Z', functional: false, text: '{Z}{Keyboard_spanish}'}
 
   swp_a_upper: {functional: false, text: '{;}{A}{Keyboard_spanish}'}
   swp_b_upper: {functional: false, text: '{;}{B}{Keyboard_spanish}'}
