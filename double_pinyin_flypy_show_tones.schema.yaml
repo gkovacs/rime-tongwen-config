@@ -52,6 +52,8 @@ engine:
     - script_translator@putonghua_lookup
   filters:
     - simplifier
+    - simplifier@zh_simp
+    - simplifier@zh_tw
     - uniquifier
     - reverse_lookup_filter@putonghua_to_tones_reverse_lookup
 
@@ -71,39 +73,120 @@ zh_tw:
 #   tips: false
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
+  alphabet: zyxwvutsrqponmlkjihgfedcba/
   delimiter: " '"
   algebra:
-    # 基础
-    - abbrev/^([a-z]).+$/$1/
-    - abbrev/^([zcs]h).+$/$1/
-    
-    # 补全
-    - derive/([dtngkhrzcs])o(u|ng)$/$1o/   # o = ou; o = ong
-    - derive/ong$/on/      # on = ong
-    - derive/^ding$/din/     # din = ding
-    
-    # 处理 v 和 u
-    - derive/^([nl])ue$/$1ve/   # nve = nue; lve = lue
-    - derive/^([jqxy])u/$1v/    # v = u; v = u
-    
-    # 智能纠错
-    - derive/ao$/oa/       # oa = ao
-    - derive/([iu])a(o|ng?)$/a$1$2/   # aio = iao; aing = iang; aung = uang
-    - derive/([aeiou])ng$/$1gn/   # gn = ng
-    - derive/un$/uen/    # uen = un
-    - derive/ui$/uei/    # uei = ui
-    - derive/iu$/iou/    # iou = ui
-    - derive/tie$/tei/    # tei = tie
-    - derive/i$/ii/      # ii = i  # i 不小心按两下
-    - derive/u$/uu/      # ui = u  # u 不小心按两下
+    - erase/^xx$/
+    - erase/^hm$/
+    - erase/^m$/
+    - erase/^n$/
+    - erase/^ng$/
+
+    # 模糊音区域
+    # 依据个人情况修改注释～
+
+    # 声母部分
+    #- derive/^([z])h/$1/ # zh => z
+    #- derive/^([z])([^h])/$1h$2/ # z => zh
+    #- derive/^([c])h/$1/ # ch => c
+    #- derive/^([c])([^h])/$1h$2/ # c => ch
+    #- derive/^([s])h/$1/ # sh => s
+    #- derive/^([s])([^h])/$1h$2/ # s => sh
+    #- derive/^l/n/ # l => n
+    #- derive/^n/l/ # n => l
+    #- derive/^r/l/ # r => l
+    #- derive/^r/y/ # r => y
+    #- derive/^hu$/fu/ # hu => fu
+    #- derive/^fu$/hu/ # fu => hu
+
+    # 韵母部分
+    #- derive/([^iu])([a])n$/$1$2ng/ # an => ang
+    #- derive/([^iu])([a])ng$/$1$2n/ # ang => an
+    #- derive/([e])n$/$1ng/ # en => eng
+    #- derive/([e])ng$/$1n/ # eng => en
+    #- derive/([i])n$/$1ng/ # in => ing
+    #- derive/([i])ng$/$1n/ # ing => in
+    #- derive/([i])an$/$1ang/ # ian => iang
+    #- derive/([i])ang$/$1an/ # iang => ian
+    # 由于小鹤双拼特性，无需 uang <=> iang
+
+    # 其它模糊音
+    #- derive/^hui$/fei/ # hui => fei
+    #- derive/^fei$/hui/ # fei => hui
+    #- derive/^huang$/wang/ # huang => wang
+    #- derive/^wang$/huang/ # wang => huang
+
+    # 小鹤双拼码表
+    - derive/^([jqxy])u$/$1v/
+    - derive/^([aoe])([ioun])$/$1$1$2/
+    - xform/^([aoe])(ng)?$/$1$1$2/
+    - xform/iu$/Q/
+    - xform/(.)ei$/$1W/
+    - xform/uan$/R/
+    - xform/[uv]e$/T/
+    - xform/un$/Y/
+    - xform/^sh/U/
+    - xform/^ch/I/
+    - xform/^zh/V/
+    - xform/uo$/O/
+    - xform/ie$/P/
+    - xform/i?ong$/S/
+    - xform/ing$|uai$/K/
+    - xform/(.)ai$/$1D/
+    - xform/(.)en$/$1F/
+    - xform/(.)eng$/$1G/
+    - xform/[iu]ang$/L/
+    - xform/(.)ang$/$1H/
+    - xform/ian$/M/
+    - xform/(.)an$/$1J/
+    - xform/(.)ou$/$1Z/
+    - xform/[iu]a$/X/
+    - xform/iao$/N/
+    - xform/(.)ao$/$1C/
+    - xform/ui$/V/
+    - xform/in$/B/
+    - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
 
 translator:
   dictionary: extended
   preedit_format:
+    - xform/([bpmfdtnljqx])n/$1iao/
+    - xform/(\w)g/$1eng/
+    - xform/(\w)q/$1iu/
+    - xform/(\w)w/$1ei/
+    - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
+    - xform/(\w)t/$1ve/
+    - xform/(\w)y/$1un/
+    - xform/([dtnlgkhvuirzcs])o/$1uo/
+    - xform/(\w)p/$1ie/
+    - xform/([jqx])s/$1iong/
+    - xform/(\w)s/$1ong/
+    - xform/(\w)d/$1ai/
+    - xform/(\w)f/$1en/
+    - xform/(\w)h/$1ang/
+    - xform/(\w)j/$1an/
+    - xform/([gkhvuirzcs])k/$1uai/
+    - xform/(\w)k/$1ing/
+    - xform/([jqxnl])l/$1iang/
+    - xform/(\w)l/$1uang/
+    - xform/(\w)z/$1ou/
+    - xform/([gkhvuirzcs])x/$1ua/
+    - xform/(\w)x/$1ia/
+    - xform/(\w)c/$1ao/
+    - xform/([dtgkhvuirzcs])v/$1ui/
+    - xform/(\w)b/$1in/
+    - xform/(\w)m/$1ian/
+    - xform/([aoe])\1(\w)/$1$2/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
+    - xform/eh/ê/
+  prism: double_pinyin_flypy
+  contextual_suggestions: true
+  max_homophones: 7
 
 menu:
   alternative_select_keys: "123456789"
