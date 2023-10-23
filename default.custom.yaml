@@ -1,0 +1,17 @@
+patch:
+  schema_list:
+    - schema: jyut6ping3_pinyin
+    - schema: clover_jyutping
+    - schema: clover_show_jyutping
+    - schema: double_pinyin_flypy_show_jyutping
+    - schema: double_pinyin_flypy_show_tones
+    - schema: terra_pinyin_simp_nospaces
+    - schema: double_pinyin_flypy
+    - schema: double_jyutping_simp_ext
+    - schema: td_pinyin_flypy
+    - schema: double_jyutping_ext
+    - schema: spanish
+    #- schema: jyut6ping3
+    #- schema: jyut6ping3_simp
+    #- schema: jyut6ping3_nospaces
+    #- schema: jyut6ping3_simp_nospaces
