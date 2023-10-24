@@ -295,8 +295,8 @@ putonghua_lookup:
   prefix: ""  # 獨用jyutping_lookup反查在反查鍵「`」之後再鍵入〔大寫〕「J」
   suffix: ""
   spelling_hints: 10
-  dictionary: terra_pinyin_simp
-  prism: td_pinyin_flypy_simp
+  dictionary: terra_pinyin
+  prism: td_pinyin_flypy
   preedit_format:
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/(\w)g/$1eng/

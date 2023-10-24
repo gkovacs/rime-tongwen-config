@@ -12,7 +12,7 @@ schema:
     聲調輸入 q平 v上 x去 （雙擊爲陽調）
     提供多種字體轉換方案
   dependencies:
-    - jyut6ping3_simp
+    - jyut6ping3
     - jyut6ping3_simp_nospaces
     - terra_pinyin_simp
     - td_pinyin_flypy_simp
@@ -198,9 +198,9 @@ menu:
   page_size: 9
 
 translator:
-  dictionary: jyut6ping3_simp
+  dictionary: jyut6ping3
   spelling_hints: 9
-  prism: double_jyutping_simp
+  prism: double_jyutping
   preedit_format:
     - xform/(^|[ '])u/$1G/
     - xform/(^|[ '])y/$1Q/
@@ -373,8 +373,8 @@ putonghua_to_jyutping_lookup:
   tag: putonghua_to_jyutping_lookup
   prefix: "q"  # 獨用jyutping_lookup反查在反查鍵「`」之後再鍵入〔大寫〕「J」
   suffix: "`"
-  dictionary: terra_pinyin_simp
-  prism: td_pinyin_flypy_simp
+  dictionary: terra_pinyin
+  prism: td_pinyin_flypy
   preedit_format:
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/(\w)g/$1eng/
@@ -440,7 +440,7 @@ putonghua_to_jyutping_lookup:
 
 putonghua_to_jyutping_reverse_lookup:
   tags: [ putonghua_to_jyutping_lookup ]
-  dictionary: jyut6ping3_simp_nospaces
+  dictionary: jyut6ping3_nospaces
   spelling_hints: 10
   overwrite_comment: true
 
