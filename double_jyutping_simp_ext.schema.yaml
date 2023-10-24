@@ -60,8 +60,9 @@ engine:
     - script_translator@putonghua_to_jyutping_lookup
     - script_translator@shuangpin_to_jyutping_lookup
   filters:
-    - simplifier@zh_tw
+    - simplifier
     - simplifier@zh_simp
+    - simplifier@zh_tw
     - uniquifier
     - reverse_lookup_filter@putonghua_to_jyutping_reverse_lookup
     - reverse_lookup_filter@shuangpin_to_jyutping_reverse_lookup

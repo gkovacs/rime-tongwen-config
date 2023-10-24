@@ -15,7 +15,7 @@ schema:
     - extended
     - double_pinyin_flypy
     - td_pinyin_flypy
-    - terra_pinyin
+    - terra_pinyin_simp
     - jyut6ping3_tradsimp_nospaces
 
 switches:
@@ -300,8 +300,8 @@ putonghua_lookup:
   prefix: ""  # 獨用jyutping_lookup反查在反查鍵「`」之後再鍵入〔大寫〕「J」
   suffix: ""
   spelling_hints: 10
-  dictionary: terra_pinyin
-  prism: td_pinyin_flypy
+  dictionary: terra_pinyin_simp
+  prism: td_pinyin_flypy_simp
   preedit_format:
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/(\w)g/$1eng/

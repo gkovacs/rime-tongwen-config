@@ -1,12 +1,17 @@
-customization:
-  distribution_code_name: trime
-  distribution_version: "v3.2.14-20230910"
-  generator: "Rime::SwitcherSettings"
-  modified_time: "Sun Oct 22 22:59:36 2023"
-  rime_version: 1.8.5
 patch:
   schema_list:
-    - {schema: spanish}
-    - {schema: double_jyutping_simp_ext}
-    - {schema: double_pinyin_flypy_show_tones}
-    - {schema: double_pinyin_flypy_show_jyutping}
+    #- schema: jyut6ping3_pinyin
+    #- schema: clover_jyutping
+    #- schema: clover_show_jyutping
+    - schema: double_pinyin_flypy_show_jyutping
+    #- schema: terra_pinyin_simp_nospaces
+    #- schema: double_pinyin_flypy
+    - schema: double_jyutping_simp_ext
+    - schema: double_pinyin_flypy_show_tones
+    #- schema: td_pinyin_flypy
+    #- schema: double_jyutping_ext
+    - schema: spanish
+    #- schema: jyut6ping3
+    #- schema: jyut6ping3_simp
+    #- schema: jyut6ping3_nospaces
+    #- schema: jyut6ping3_simp_nospaces
