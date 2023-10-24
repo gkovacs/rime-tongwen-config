@@ -24,7 +24,7 @@ switches:
     states: [ 中, 英 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - options: [zh_simp, zh_tw ]
+  - options: [simplification, zh_tw ]
     states: [ 简, 繁 ]
     reset: 0
   - name: ascii_punct
@@ -56,7 +56,6 @@ engine:
     - script_translator@putonghua_lookup
   filters:
     - simplifier
-    - simplifier@zh_simp
     - simplifier@zh_tw
     - uniquifier
     - reverse_lookup_filter@putonghua_to_tones_reverse_lookup

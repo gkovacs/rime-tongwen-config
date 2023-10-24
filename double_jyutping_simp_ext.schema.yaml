@@ -28,7 +28,7 @@ switches:
     states: [ 半角, 全角 ]
   #- name: simplification
   #  states: [ 漢字, 汉字 ]
-  - options: [zh_simp, zh_tw ]
+  - options: [simplification, zh_tw ]
     states: [ 简, 繁 ]
     reset: 0
   - name: ascii_punct
@@ -61,7 +61,6 @@ engine:
     - script_translator@shuangpin_to_jyutping_lookup
   filters:
     - simplifier
-    - simplifier@zh_simp
     - simplifier@zh_tw
     - uniquifier
     - reverse_lookup_filter@putonghua_to_jyutping_reverse_lookup
