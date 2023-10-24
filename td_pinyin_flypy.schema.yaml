@@ -21,8 +21,8 @@ switches:
   - name: full_shape
     reset: 0
     states: [ 半角, 全角 ]
-  - options: [ trad_tw, simplification, variants_hk, noop, variants_jp ]
-    states: [ 台, 简, 港, 繁, 日 ]
+  - options: [ noop, trad_tw, simplification, variants_hk, variants_jp ]
+    states: [ 繁, 台, 简, 港, 日 ]
     reset: 0
   # - name: simplification
   #   states: [ 漢字, 汉字 ]

@@ -13,6 +13,10 @@ schema:
     小鹤双拼方案。
   dependencies:
     - terra_pinyin_simp_nospaces
+    - extended
+    - double_pinyin_flypy
+    - td_pinyin_flypy
+    - terra_pinyin
 
 switches:
   - name: ascii_mode
